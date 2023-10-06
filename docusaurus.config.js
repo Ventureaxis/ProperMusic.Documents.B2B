@@ -6,19 +6,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Proper Music B2B Portal',
-  tagline: 'Music done Proper-ly',
+  title: 'Proper Music',
+  tagline: 'Welcome to Proper Music Documentation',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'http://ventureaxis.github.io/propermusic.documents.b2b/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Ventureaxis', // Usually your GitHub org/user name.
+  organizationName: 'ProperMusicGroup', // Usually your GitHub org/user name.
   projectName: 'propermusic.documents.b2b', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -32,6 +32,10 @@ const config = {
     locales: ['en'],
   },
 
+  customFields: {
+    teamEmail: "basil.tickets@propermusicgroup.com",
+  },
+
   presets: [
     [
       'classic',
@@ -42,7 +46,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
-            //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+           // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -64,76 +68,80 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'B2B Portal',
+        title: 'ProperMusic',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'ProperLogo',
+          src: 'img/favicon.ico',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/blog', label: 'Release Notes', position: 'left'},
+          // {
+          //   href: 'https://github.com/facebook/docusaurus',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-        //      {
-        //       label: 'Stack Overflow',
-        //        href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //      },
-        //      {
-        //        label: 'Discord',
-        //       href: 'https://discordapp.com/invite/docusaurus',
-        //      },
-        //      {
-        //        label: 'Twitter',
-        //        href: 'https://twitter.com/docusaurus',
-        //      },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
+//          {
+            //title: 'Docs',
+            //items: [
+//              {
+                //label: 'Tutorial',
+                //to: '/docs/intro',
+              //},
+            //],
+          //},
+//          {
+            //title: 'Community',
+            //items: [
+              //{
+              //  label: 'Stack Overflow',
+              //  href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+             // },
+             // {
+             //  label: 'Discord',
+             //   href: 'https://discordapp.com/invite/docusaurus',
+             // },
+             // {
+            //  label: 'Twitter',
+            //    href: 'https://twitter.com/docusaurus',
+            //  },
+            //],
+          //},
+//          {
+  //          title: 'More',
+            //items: [
+              //{
+//                label: 'Blog',
+                //to: '/blog',
+//              },
+              //{
+                //label: 'GitHub',
+//                href: 'https://github.com/facebook/docusaurus',
+              //},
+//            ],
+  //        },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Ventureaxis on behalf of Proper Music Group Ltd. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Proper Music Group Ltd. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
+    markdown: {
+      mermaid: true,
+    },
+    themes: ['@docusaurus/theme-mermaid']
 };
 
 module.exports = config;
