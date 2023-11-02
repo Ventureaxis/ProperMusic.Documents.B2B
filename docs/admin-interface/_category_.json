@@ -1,0 +1,8 @@
+{
+  "label": "Admin Interface",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Information on the Admin interface."
+  }
+}

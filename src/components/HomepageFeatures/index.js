@@ -4,32 +4,33 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Advanced Product Search',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Quickly and easily find what products you want with the Advanced Search feature. Includes
+        extra options to filter the products you&apos;re viewing.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Import Orders',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Import multiple products through our Import Order feature, which will check the availability / validity
+        of your import file and allows extra options dependent on your use case. You can then manage the import if
+        there were any errors or amendments you need to make.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'BackOrder Products and View Live Quantities',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        View complete list of your current Back Orders for your store and view live quantites for products
+        across the site.
       </>
     ),
   },
