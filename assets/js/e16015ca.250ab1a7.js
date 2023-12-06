@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpropermusic_documents_properweb=self.webpackChunkpropermusic_documents_properweb||[]).push([[9700],{5688:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/blog/tags/hola","allTagsPath":"/blog/tags","count":1}')}}]);
