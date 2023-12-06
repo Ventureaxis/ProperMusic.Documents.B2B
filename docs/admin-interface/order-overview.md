@@ -3,7 +3,7 @@ sidebar_position: 22
 title: Order Overview
 ---
 
-How to Import your Orders
+Viewing any Pending, Processing or Completed Orders
 
 The application uses a traditional Ring Type menu along with a Quick Access toolbar.
 

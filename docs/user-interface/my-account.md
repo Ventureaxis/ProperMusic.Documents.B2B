@@ -5,21 +5,52 @@ title: My Account
 
 Wheres my information?
 
-The application uses a traditional Ring Type menu along with a Quick Access toolbar.
-
-Access to frequently used options is available from the toolbar, for example, the Customer list and Scheduling screens.
-While this is functionally adequate, the UI is extremely dated and is not representative of how modern applications created by the Clarion Development language can look.
+Your account information contains your personal information, your list of addresses, the list of orders and back orders for your store, changing your password and information relating to your data and GDPR.
 
 :::info
-An alternate, modern UI could use both a contracted left Nav Bar or expanded menu structure: -
-Contracted Nav Bar
-Expanded Menu
+Links to your Account information
+![Alt text](img-account-links.png)
 :::
 
-List Screens
-An example of typical “List” type screen is the Customer list.
+## **Your Details**
 
+On this page you can check that we've entered your details correctly and that at the bottom of this page, in the Options section, that these fields are filled out, otherwise your B2B account will not work correctly.
 
-As stated for the menu navigation, most of the application’s function screens use a dated UI along with basic toolset features.  Most “List” type screens include a “Data Filter Center” allowing the user to perform and save queries.
+:::info
+What your personal information may look like
+![Alt text](img-my-account.png)
+:::
 
-Using modern tools here instead of the original built in toolset options would not only enhance the UI, but would also add more functionality.  For example, optional data grouping, inline filtering and user customisable content.  The screen space used for the “Data Filter Center” could then be reused for additional list space or related record information.
+## **Your Addresses**
+
+On this page you must check these addresses are correct as when you send an order through we will be using these as a reference of where to send your items.
+
+:::info
+A list of addresses
+![Alt text](img-account-addresses.png)
+:::
+
+## **Your Stores Back Orders**
+
+Through this page you can see the current list of back orders for your store, and filter by Catalogue No, Artist, Barcode, Title or Format.
+You can also download the list of back orders you are viewing into an excel sheet for further use.
+
+:::info
+A list of products that are currently on back order for your store
+![Alt text](img-account-backorders.png)
+:::
+
+## **Your Orders**
+
+Through this page you can see the current list of back orders for your store, and filter by Catalogue No, Artist, Barcode, Title or Format.
+You can also download the list of back orders you are viewing into an excel sheet for further use.
+
+:::info
+A list of your orders to date
+![Alt text](img-account-orders.png)
+
+If we then expand one of these orders using the "Details" button for that order (highlighted in red above) we will see the orders information:
+![Alt text](img-order-details.png)
+:::
+
+In Order Information, a certain orders details will be laid out, including options to print or download an invoice of the order, re-order the current order you're browsing and also review the options/status of the order.

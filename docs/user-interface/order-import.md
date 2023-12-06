@@ -5,21 +5,36 @@ title: Order Import
 
 How to Import your Orders
 
-The application uses a traditional Ring Type menu along with a Quick Access toolbar.
+The Order Import system allows you to add products to your order in large quantities from a CSV or an Excel sheet. The only basic details we need for each product is the Catalogue Number or the Barcode and the quantity you want to import.
 
-Access to frequently used options is available from the toolbar, for example, the Customer list and Scheduling screens.
-While this is functionally adequate, the UI is extremely dated and is not representative of how modern applications created by the Clarion Development language can look.
+You can also easily get the valid format and names of each column that we need to correctly import your products by downloading the template from the Download dropdown button.
 
 :::info
-An alternate, modern UI could use both a contracted left Nav Bar or expanded menu structure: -
-Contracted Nav Bar
-Expanded Menu
+Overview of the Order Import and its dropdown
+![Alt text](img-order-import-overview.png)
+
+Example of an excel sheet template (The last two lines would be invalid - see next image)
+
+![Alt text](img-excel-example.png)
+
+Hovering over the red exclamation point shows the errors in the latest import
+![Alt text](img-order-import-error.png)
+
+If we then download these results from the dropdown, it will have the relevant comments for each order line
+![Alt text](img-download-results.png)
+
+Note: you can re-import this "Downloaded Results" file without changing your column headers as we match which column is which by the column name
 :::
 
-List Screens
-An example of typical “List” type screen is the Customer list.
+Any errors in your import will appear if you hover over the red exclamation point next to the Download dropdown, and the valid products will be imported.
 
+The two checkboxes are options that will effect your import:
+- Replace Order will empty your order before you import more products
+- Back Order Pre-Release will add any products that aren&apos;t released yet onto your stores back order (Also skipping the automatic check for pre-releases on import)
 
-As stated for the menu navigation, most of the application’s function screens use a dated UI along with basic toolset features.  Most “List” type screens include a “Data Filter Center” allowing the user to perform and save queries.
+You can also find a detailed guide of this process in Download dropdown by clicking "Download Guide"
+:::info
+![Alt text](img-import-guide.png)
+:::
 
-Using modern tools here instead of the original built in toolset options would not only enhance the UI, but would also add more functionality.  For example, optional data grouping, inline filtering and user customisable content.  The screen space used for the “Data Filter Center” could then be reused for additional list space or related record information.
+Here is also a short video of the whole Order Import process:

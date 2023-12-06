@@ -5,21 +5,39 @@ title: Order Summary
 
 Your Order Summary
 
-The application uses a traditional Ring Type menu along with a Quick Access toolbar.
-
-Access to frequently used options is available from the toolbar, for example, the Customer list and Scheduling screens.
-While this is functionally adequate, the UI is extremely dated and is not representative of how modern applications created by the Clarion Development language can look.
+To see a quick summary of your current order you can simply hover over the My Order dropdown in the top right of the navigation bar.
 
 :::info
-An alternate, modern UI could use both a contracted left Nav Bar or expanded menu structure: -
-Contracted Nav Bar
-Expanded Menu
+![Alt text](img-summary-dropdown.png)
 :::
 
-List Screens
-An example of typical “List” type screen is the Customer list.
+From this dropdown you can go to a more detailed view of your order, go straight to the checkout or download the products in your order to an excel sheet.
 
+:::info
+If click "Download My Order" you can see more relevant information about each product in your order and this file can be re-imported without modification as we map each column by name
+![Alt text](img-download-order.png)
+:::
 
-As stated for the menu navigation, most of the application’s function screens use a dated UI along with basic toolset features.  Most “List” type screens include a “Data Filter Center” allowing the user to perform and save queries.
+The Order Summary page shows further details, discounts and available stock quantities, as well as options to further change your order.
 
-Using modern tools here instead of the original built in toolset options would not only enhance the UI, but would also add more functionality.  For example, optional data grouping, inline filtering and user customisable content.  The screen space used for the “Data Filter Center” could then be reused for additional list space or related record information.
+:::info
+We can see here in the summmary, the basic details of each product we want to order, the different prices of the product, and the quantity we want to order compared to the stock quantity that is available to order.
+The product total column will total up the quantity you want to order, apply any discounts and display your total price and the amount you are saving.
+![Alt text](img-order-summary.png)
+:::
+
+You can remove any singular products with the Remove button on each product row, or remove everything in your Order to start again using the Empty My Order button.
+If you want to change the quantity of a certain product already in your Order, you can simply amend the quantity in the products row, then click Update Order to apply the changes.
+
+Below the Order action buttons there will be some options that will change how your order is processed once its been confirmed.
+:::info
+![Alt text](img-checkout-attributes.png)
+:::
+
+The Back Order Unavailable Products option will tell our system that there are certain products in your order that you would like to be put on back order for when they are available again.
+
+The Order Reference is a custom text field that you can add a reference for it to be displayed on the order summary.
+
+The Back Order New Releases option will ONLY put orders on back order if they haven't been released yet - products that are out of stock will be ignored.
+
+If you're happy with your order you can press Proceed To Checkout and you can continue completing your order. Our system will notify you if you are below the required price for free delivery.

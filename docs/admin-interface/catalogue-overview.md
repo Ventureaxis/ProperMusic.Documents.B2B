@@ -3,7 +3,7 @@ sidebar_position: 21
 title: Catalogue Overview
 ---
 
-Wheres my information?
+Retrieving and searching for any product in the Catalogue
 
 The application uses a traditional Ring Type menu along with a Quick Access toolbar.
 

@@ -3,7 +3,7 @@ sidebar_position: 21
 title: Customer Overview
 ---
 
-Your Order Summary
+Adding new Customers, changing passwords, sending a direct email
 
 The application uses a traditional Ring Type menu along with a Quick Access toolbar.
 

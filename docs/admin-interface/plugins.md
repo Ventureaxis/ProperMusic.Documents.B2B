@@ -3,7 +3,7 @@ sidebar_position: 22
 title: B2B Plugins
 ---
 
-Searching through B2B
+Our customization
 
 The application uses a traditional Ring Type menu along with a Quick Access toolbar.
 

@@ -3,7 +3,7 @@ sidebar_position: 22
 title: B2B Reports
 ---
 
-How to Import your Orders
+Reporting Stats
 
 The application uses a traditional Ring Type menu along with a Quick Access toolbar.
 
