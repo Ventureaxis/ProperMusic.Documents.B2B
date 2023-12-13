@@ -39,6 +39,8 @@ const config = {
             /** @type {import('@docusaurus/preset-classic').Options} */
             ({
                 docs: {
+                    path: './docs',
+                    routeBasePath: 'docs',
                     sidebarPath: require.resolve('./sidebars.js'),
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
@@ -46,6 +48,10 @@ const config = {
                     // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                 },
                 blog: {
+                    path: './blog',
+                    routeBasePath: 'blog',
+                    blogSidebarCount: 'ALL',
+                    blogSidebarTitle: 'Releases',
                     showReadingTime: true,
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
