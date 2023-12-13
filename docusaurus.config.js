@@ -14,13 +14,13 @@ const config = {
     url: 'https://ventureaxis.github.io/',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: '/',
+    baseUrl: '/ProperMusic.Documents.B2B/',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'VentureAxis', // Usually your GitHub org/user name.
     projectName: 'ProperMusic.Documents.B2B', // Usually your repo name.
-    deploymentBranch: 'main',
+    deploymentBranch: 'gh-pages',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     trailingSlash: false,
