@@ -20,7 +20,7 @@ const config = {
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'VentureAxis', // Usually your GitHub org/user name.
     projectName: 'ProperMusic.Documents.B2B', // Usually your repo name.
-    deploymentBranch: 'deployment',
+    deploymentBranch: 'main',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     trailingSlash: false,
