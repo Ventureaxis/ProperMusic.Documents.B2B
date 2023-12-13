@@ -4,10 +4,20 @@
         <title>ProperMusic B2B Blog</title>
         <link>https://ventureaxis.github.io/ProperMusic.Documents.B2B/blog</link>
         <description>ProperMusic B2B Blog</description>
-        <lastBuildDate>Thu, 02 Nov 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 13 Dec 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Admin Documentation Update]]></title>
+            <link>https://ventureaxis.github.io/ProperMusic.Documents.B2B/blog/admin-doc-update</link>
+            <guid>https://ventureaxis.github.io/ProperMusic.Documents.B2B/blog/admin-doc-update</guid>
+            <pubDate>Wed, 13 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Updates to the Admin overview page and updates to some of the Admin Inteface pages. Started documentation for Source Code as well]]></description>
+            <content:encoded><![CDATA[<p>Updates to the Admin overview page and updates to some of the Admin Inteface pages. Started documentation for Source Code as well</p>]]></content:encoded>
+            <category>admin</category>
+            <category>nopcommerce</category>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://ventureaxis.github.io/ProperMusic.Documents.B2B/blog/welcome</link>

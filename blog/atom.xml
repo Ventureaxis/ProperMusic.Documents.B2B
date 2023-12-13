@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ventureaxis.github.io/ProperMusic.Documents.B2B/blog</id>
     <title>ProperMusic B2B Blog</title>
-    <updated>2023-11-02T00:00:00.000Z</updated>
+    <updated>2023-12-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ventureaxis.github.io/ProperMusic.Documents.B2B/blog"/>
     <subtitle>ProperMusic B2B Blog</subtitle>
     <icon>https://ventureaxis.github.io/ProperMusic.Documents.B2B/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Admin Documentation Update]]></title>
+        <id>https://ventureaxis.github.io/ProperMusic.Documents.B2B/blog/admin-doc-update</id>
+        <link href="https://ventureaxis.github.io/ProperMusic.Documents.B2B/blog/admin-doc-update"/>
+        <updated>2023-12-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Updates to the Admin overview page and updates to some of the Admin Inteface pages. Started documentation for Source Code as well]]></summary>
+        <content type="html"><![CDATA[<p>Updates to the Admin overview page and updates to some of the Admin Inteface pages. Started documentation for Source Code as well</p>]]></content>
+        <author>
+            <name>Jakob Camwell</name>
+            <uri>https://github.com/VA-JCAMWELL</uri>
+        </author>
+        <category label="admin" term="admin"/>
+        <category label="nopcommerce" term="nopcommerce"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://ventureaxis.github.io/ProperMusic.Documents.B2B/blog/welcome</id>
