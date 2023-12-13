@@ -3,6 +3,7 @@ sidebar_position: 21
 title: Advanced Search
 ---
 import ReactPlayer from 'react-player'
+import SearchVideo from '../../static/video/vid-expanded-collapse.mp4';
 
 Searching through B2B
 
@@ -49,7 +50,7 @@ If you are navigating to the Advanced Search page with an invalid keyword entere
 the Advanced Search will be collapsed so you can scroll through your products easily.
 :::info
 Clicking on the "Search" header in Advanced Search will expand/collapse the advanced search features so you can look through the list of products more easily
-<ReactPlayer playing controls url='/video/vid-expanded-collapse.mp4' />
+<ReactPlayer playing controls url={SearchVideo} />
 :::
 
 We can see in the below image that the Advanced Search has a few options to narrow down your search. It gives the option to specifically search products Artist/Title or enter your phrase to the "Search Keyword" input and all attributes of all products will be searched for the word entered.
