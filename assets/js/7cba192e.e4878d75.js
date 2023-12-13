@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpropermusic_documents_properweb=self.webpackChunkpropermusic_documents_properweb||[]).push([[7146],{7032:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/ProperMusic.Documents.B2B/blog/tags/hola","allTagsPath":"/ProperMusic.Documents.B2B/blog/tags","count":1}')}}]);
