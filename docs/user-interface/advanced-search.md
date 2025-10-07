@@ -7,7 +7,7 @@ import SearchVideo from '../../static/video/vid-expanded-collapse.mp4';
 
 Searching through B2B
 
-## **Quick Search**
+## **Advanced Search**
 :::info
 List of Product Attributes you can search through
 
@@ -17,14 +17,17 @@ List of Product Attributes you can search through
 - Format
 - Release Date
 - Title
+- Label
+- Variant
+- Release Date
+- Promotions (if active)
 - Description (optional)
 :::
 
-The easiest way to search for product in B2B is through the Quick Search just below the Order Import feature.
-Quick Search allows you to search a keyword in relation to the product you want, and B2B will return you a list of products that contain this keyword in some fashion.
+The easiest way to search for a product in B2B is through the Advanced Search just below the Homepage logo.
+Advanced Search allows you to search a keyword in relation to the product you want, and B2B will return you a list of products that contain this keyword in some fashion.
 
 :::info
-Here we can see that if we are to type a valid Cat No into Quick Search the desired product is shown as a dropdown.
 ![Alt text](img-quick-search.png)
 :::
 
@@ -33,11 +36,8 @@ If your product is found it will be displayed and you can click on it to navigat
 ![Alt text](img-search-success.png)
 :::
 
-If there are no products found in the initial search, click the search button for the Quick Search and you will be redirected to the Advanced Search.
-
-## **Advanced Search**
-
-The Quick Search will direct you to the Advanced Search where you can more accurately and precisely filter your products.
+Clicking on Advanced Search will navigate you to the page where all filter and search options are available.
+In addition, on the left hand side of this page is where you can see all products by a certain genre.
 If you have clicked the search button on the homepage without searching a certain keyword you will be directed to a page that looks like this:
 
 :::info

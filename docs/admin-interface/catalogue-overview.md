@@ -19,6 +19,7 @@ If you click on one of the products that is in the catalogue it will open up mul
 If there are categories or product specification attributes that you would like to add or change please get in contact with the VentureAxis team to discuss.
 
 :::warning
-Please Note: We **do not** use the standard `Import`, we have a dedicated product importer that directly import products from Basil to B2B that isn't managed from B2B
+Please Note: We **do not** use the standard `Import`, we have a dedicated product importer that directly imports products from Basil to B2B that isn't managed from B2B
+
 ![Alt Text](img-admin-catalogue-import.png)
 :::

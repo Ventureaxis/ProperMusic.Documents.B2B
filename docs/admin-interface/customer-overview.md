@@ -18,17 +18,21 @@ The toolbar at the top allows you to Send an Email straight to the currently sel
 ![Alt Text](img-admin-customers-details.png)
 :::
 
-**Customer Info**
+## **Customer Info**
 
 The Customer Info tab lets you change the basic details of a customer (name, email, password) and this tab also contains where the Proper Account Customer and Shop Code are set for each user to view their specific store.
+
+The account manager field can be set to any email to receive a notification whenever this customer places an order. Multiple emails can be set by just separating them with a semicolon.
 
 ![Alt Text](img-admin-customer-info.png)
 
 :::warning
 Both the Proper Account Customer Code **and** the Proper Account Shop Code need to be set for a customer to be able to use B2B.
+
+The Proper Customer Categories is a field that is set outside of the B2B system to filter products available to a customer, please contact the VentureAxis team if you need to change this.
 :::
 
-**Orders**
+## **Orders**
 
 Within the Orders tab you can get a quick overview of the customers orders and where they are in the process, as well as clicking on any of these orders to get further information.
 

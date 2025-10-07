@@ -11,8 +11,8 @@ The application uses the open-source eCommerce software NopCommerce and is custo
  
 ![Alt text](img-b2b-homepage.png)
 
-Access to frequently used options is available from the toolbar, for example, the Customer list and Scheduling screens.
-While this is functionally adequate, the UI is extremely dated and is not representative of how modern applications created by the Clarion Development language can look.
+On this frontpage we have a list of featured labels that navigate to a product page with all the products available from that label. These categories can be changed from the admin section.
+Under New Releases we have the next 4 weeks of product releases, this is also configurable from the admin section, where each quadrant can be changed to a different products album art.
 
 :::info
 This image highlights the Order Import feature in red and the Advanced Search in blue.
